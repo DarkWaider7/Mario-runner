@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+    <div class="game">
+        <div id="score">0</div>
+        <div id="mario"></div>
+        <div id="stone"></div>
+        <div id="sun"></div>
+        <div id="brick"></div>
+    </div>
+    <div class="options">
+        <div id="modal">
+            <div class="modal__score">YOUR SCORE</div>
+            <span class="modal__span">0</span>
+            <button class="modal__button">restart</button>
+        </div>
+        <div id="start"><span>START</span></div>
+        <audio src="./sounds/Mario_jump sound.m4a" id="sound_jump"></audio>
+        <audio src="./sounds/Mario_hitting sound.m4a" id="sound_hitting"></audio>
+        <audio src="./sounds/Mario_game over sound.m4a" id="sound_game_over"></audio>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
